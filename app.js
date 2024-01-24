@@ -1,3 +1,5 @@
+let listaDeNumerosSorteados = [];
+let numeroMaximo = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -41,7 +43,19 @@ function reiniciarJogo() {
 }
 
 function gerarNumeroAleatorio() {
-  return parseInt(Math.random() * 10 + 1);
+  let numeroEscolhido = parseInt(Math.random() * numeroMaximo + 1);
+  let quantidadeDeElementosNaLista = listaDeNumerosSorteados.length;
+
+  if (quantidadeDeElementosNaLista == numeroMaximo) {
+    listaDeNumerosSorteados = [];
+  }
+  if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
+    return gerarNumeroAleatorio();
+  } else {
+    listaDeNumerosSorteados.push(numeroEscolhido);
+    console.log(listaDeNumerosSorteados);
+    return numeroEscolhido;
+  }
 }
 
 function limparCampoNumero() {
