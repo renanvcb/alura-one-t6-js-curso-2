@@ -14,7 +14,7 @@ This project is created during the **Alura + Oracle Next Education** to practice
 
 ## 🌐 Try Live Version
 
-[![vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jogo-do-numero-secreto-seven-sable.vercel.app/))
+[![vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jogo-do-numero-secreto-seven-sable.vercel.app/)
 
 ## 🔗 More About Me
 
