@@ -1,6 +1,6 @@
 # A simple html + CSS portfolio
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/renanvcb/nlw-expert-notes?style=for-the-badge">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/renanvcb/alura-one-t6-js-curso-2?style=for-the-badge">
 
 ## 📄 Objectives
 
